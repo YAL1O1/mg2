@@ -3084,7 +3084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258583383}
   - component: {fileID: 258583384}
-  m_Layer: 20
+  m_Layer: 21
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3177,7 +3177,7 @@ GameObject:
   - component: {fileID: 367829266}
   - component: {fileID: 367829265}
   - component: {fileID: 367829264}
-  m_Layer: 5
+  m_Layer: 21
   m_Name: HealthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8609,7 +8609,7 @@ GameObject:
   - component: {fileID: 661776428}
   - component: {fileID: 661776427}
   - component: {fileID: 661776426}
-  m_Layer: 5
+  m_Layer: 21
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16326,7 +16326,7 @@ GameObject:
   - component: {fileID: 1347814463}
   - component: {fileID: 1347814462}
   - component: {fileID: 1347814461}
-  m_Layer: 20
+  m_Layer: 21
   m_Name: Prop (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16465,8 +16465,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1869315837
-  m_SortingLayer: 1
+  m_SortingLayerID: -44025399
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300034, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
@@ -16489,7 +16489,7 @@ Transform:
   m_GameObject: {fileID: 1347814460}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.35, y: 5.2, z: 0}
+  m_LocalPosition: {x: 1.85, y: 8.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
