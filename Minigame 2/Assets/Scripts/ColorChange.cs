@@ -21,13 +21,15 @@ public class ColorChange : MonoBehaviour
         // STEP 3 -------------------------------------------------------------
         // Write a line of code to subtract ONE from the value of 'health'.
         // You don't need to declare 'health' again - just change the value.
-        
+
         // STEP 3 -------------------------------------------------------------
+        health--;
 
         // STEP 4 -------------------------------------------------------------
         // DECLARE a new float value named 'r' with a value of 1.
-        
+
         // STEP 4 -------------------------------------------------------------
+        float r = 1f;
 
         // STEP 5 -------------------------------------------------------------
         // Add three more else/if statements to this. 
@@ -38,9 +40,15 @@ public class ColorChange : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        
+        else if (health == 3)
+            r = 1.0f;
+        else if (health == 2)
+            r = 0.5f;
+        else if (health == 1)
+            r = 0.0f;
+
         // When you're done, uncomment the line below.
-        //_spriteRenderer.color = new Color(r, 0.2f, 0.2f);
+        _spriteRenderer.color = new Color(r, 0.2f, 0.2f);
         // STEP 5 -------------------------------------------------------------
 
         _healthText.gameObject.SetActive(true);
@@ -50,5 +58,6 @@ public class ColorChange : MonoBehaviour
         //      displays the prop's current health value.
         _healthText.text = "h = ";
         // STEP 6 -------------------------------------------------------------
+        _healthText.text += health;
     }
 }
